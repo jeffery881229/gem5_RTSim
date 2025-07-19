@@ -1,0 +1,277 @@
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+write address 0xf0000:
+      patch embedding
+RequestComplete: 983040
+
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+write address 0xf0000:
+      CLS + POS
+RequestComplete: 983040
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+write address 0xf0000:
+      Q, K, V calculation
+RequestComplete: 983040
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+write address 0xf0000:
+      Q*KT calculation
+RequestComplete: 983040
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+write address 0xf0000:
+      softmax result * V
+write address 0xf0000:
+      Q*KT calculation
+RequestComplete: 983040
+RequestComplete: 983040
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+write address 0xf0000:
+      softmax result * V
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+write address 0xf0000:
+      self-attention * Wo + bo
+write address 0xf0000:
+      Add back result before LayerNorm calculation
+RequestComplete: 983040
+RequestComplete: 983040
+RequestComplete: 983040
+
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+write address 0xf0000:
+      Feed Forward
+RequestComplete: 983040
+
+101112virtual memory: 64424509440
+nvmain Paddr: 983040
+1
+2
+3
+4
+5
+decoder address: 983040
+6
+7
+decoder address: 983040
+RTM address: 983040
+decoder address: 983040
+8
+A PIM request:
+RequestComplete: 983040
+write address 0xf0000:
+      Add back result before LayerNorm calculation 2
+RequestComplete: 983040

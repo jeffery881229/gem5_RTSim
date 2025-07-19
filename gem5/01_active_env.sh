@@ -1,0 +1,1 @@
+conda activate gem5_env

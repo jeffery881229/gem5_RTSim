@@ -1,0 +1,101 @@
+386776085985: system.cpu: 0x7ffff772cc26    : test	r13                  
+386776086611: system.cpu: 0x7ffff772cc29    : jz	0x55                   
+386776087237: system.cpu: 0x7ffff772cc2b    : hint	                     
+386776087863: system.cpu: 0x7ffff772cc30    : mov	rax, DS:[r13 + 0x8]   
+386776887891: system.cpu: 0x7ffff772cc34    : mov	rax                   
+386776889143: system.cpu: 0x7ffff772cc37    : sal	0x5                   
+386776889769: system.cpu: 0x7ffff772cc3b    : test	rax                  
+386778407506: system.cpu: 0x7ffff772cc3e    : lea	rcx, DS:[rdx + r13 + 0xfffffffffffffff0]
+386778408132: system.cpu: 0x7ffff772cc43    : jz	0x2a                   
+386778409384: system.cpu: 0x7ffff772cc45    : sub	rax, 0x1              
+386778410010: system.cpu: 0x7ffff772cc49    : mov	DS:[r13 + 0x8], rax   
+386778411262: system.cpu: 0x7ffff772cc4d    : mov	r8, DS:[rcx]          
+386778970593: system.cpu: 0x7ffff772cc50    : cmp	r8, 0x3               
+386778971845: system.cpu: 0x7ffff772cc54    : jz	0x96                   
+386778972471: system.cpu: 0x7ffff772cc5a    : cmp	r8, 0x4               
+386778973097: system.cpu: 0x7ffff772cc5e    : jz	0x70                   
+386779572492: system.cpu: 0x7ffff772ccd0    : mov	rax, DS:[rcx + 0x8]   
+386779573744: system.cpu: 0x7ffff772ccd4    : mov	rdi, DS:[rcx + 0x10]  
+386779574996: system.cpu: 0x7ffff772ccd8    : mov	ebx                   
+386779575622: system.cpu: 0x7ffff772ccda    : ror	0x11                  
+386779585012: system.cpu: 0x7ffff772ccde    : xor	rax, FS:[t0 + t0 + 0x30]
+386779586890: system.cpu: 0x7ffff772cce7    : call	                     
+386780553121: system.cpu: 0x6a0ce    : hint	                     
+386780554373: system.cpu: 0x6a0d2    : ret	                      
+386780554999: system.cpu: 0x7ffff772cce9    : jmp	0xffffffffffffff42    
+386780555625: system.cpu: 0x7ffff772cc30    : mov	rax, DS:[r13 + 0x8]   
+386780556877: system.cpu: 0x7ffff772cc34    : mov	rax                   
+386780558129: system.cpu: 0x7ffff772cc37    : sal	0x5                   
+386780558755: system.cpu: 0x7ffff772cc3b    : test	rax                  
+386780560007: system.cpu: 0x7ffff772cc3e    : lea	rcx, DS:[rdx + r13 + 0xfffffffffffffff0]
+386780560633: system.cpu: 0x7ffff772cc43    : jz	0x2a                   
+386780561885: system.cpu: 0x7ffff772cc45    : sub	rax, 0x1              
+386780562511: system.cpu: 0x7ffff772cc49    : mov	DS:[r13 + 0x8], rax   
+386780563763: system.cpu: 0x7ffff772cc4d    : mov	r8, DS:[rcx]          
+386781255493: system.cpu: 0x7ffff772cc50    : cmp	r8, 0x3               
+386781256745: system.cpu: 0x7ffff772cc54    : jz	0x96                   
+386781257371: system.cpu: 0x7ffff772cc5a    : cmp	r8, 0x4               
+386781257997: system.cpu: 0x7ffff772cc5e    : jz	0x70                   
+386781258623: system.cpu: 0x7ffff772ccd0    : mov	rax, DS:[rcx + 0x8]   
+386781259875: system.cpu: 0x7ffff772ccd4    : mov	rdi, DS:[rcx + 0x10]  
+386781261127: system.cpu: 0x7ffff772ccd8    : mov	ebx                   
+386781261753: system.cpu: 0x7ffff772ccda    : ror	0x11                  
+386781263631: system.cpu: 0x7ffff772ccde    : xor	rax, FS:[t0 + t0 + 0x30]
+386781265509: system.cpu: 0x7ffff772cce7    : call	                     
+386781266135: system.cpu: 0x6a0c8    : hint	                     
+386781267387: system.cpu: 0x6a0cc    : ret	                      
+386781268013: system.cpu: 0x7ffff772cce9    : jmp	0xffffffffffffff42    
+386781268639: system.cpu: 0x7ffff772cc30    : mov	rax, DS:[r13 + 0x8]   
+386781269891: system.cpu: 0x7ffff772cc34    : mov	rax                   
+386781271143: system.cpu: 0x7ffff772cc37    : sal	0x5                   
+386781271769: system.cpu: 0x7ffff772cc3b    : test	rax                  
+386781273021: system.cpu: 0x7ffff772cc3e    : lea	rcx, DS:[rdx + r13 + 0xfffffffffffffff0]
+386781273647: system.cpu: 0x7ffff772cc43    : jz	0x2a                   
+386781274899: system.cpu: 0x7ffff772cc45    : sub	rax, 0x1              
+386781275525: system.cpu: 0x7ffff772cc49    : mov	DS:[r13 + 0x8], rax   
+386781276777: system.cpu: 0x7ffff772cc4d    : mov	r8, DS:[rcx]          
+386781278029: system.cpu: 0x7ffff772cc50    : cmp	r8, 0x3               
+386781279281: system.cpu: 0x7ffff772cc54    : jz	0x96                   
+386781279907: system.cpu: 0x7ffff772cc5a    : cmp	r8, 0x4               
+386781280533: system.cpu: 0x7ffff772cc5e    : jz	0x70                   
+386781281159: system.cpu: 0x7ffff772ccd0    : mov	rax, DS:[rcx + 0x8]   
+386781282411: system.cpu: 0x7ffff772ccd4    : mov	rdi, DS:[rcx + 0x10]  
+386781283663: system.cpu: 0x7ffff772ccd8    : mov	ebx                   
+386781284289: system.cpu: 0x7ffff772ccda    : ror	0x11                  
+386781286167: system.cpu: 0x7ffff772ccde    : xor	rax, FS:[t0 + t0 + 0x30]
+386781288045: system.cpu: 0x7ffff772cce7    : call	                     
+386781288671: system.cpu: 0x59618    : hint	                     
+386781289923: system.cpu: 0x5961c    : ret	                      
+386781290549: system.cpu: 0x7ffff772cce9    : jmp	0xffffffffffffff42    
+386781291175: system.cpu: 0x7ffff772cc30    : mov	rax, DS:[r13 + 0x8]   
+386781292427: system.cpu: 0x7ffff772cc34    : mov	rax                   
+386781293679: system.cpu: 0x7ffff772cc37    : sal	0x5                   
+386781294305: system.cpu: 0x7ffff772cc3b    : test	rax                  
+386781295557: system.cpu: 0x7ffff772cc3e    : lea	rcx, DS:[rdx + r13 + 0xfffffffffffffff0]
+386781296183: system.cpu: 0x7ffff772cc43    : jz	0x2a                   
+386781297435: system.cpu: 0x7ffff772cc45    : sub	rax, 0x1              
+386781298061: system.cpu: 0x7ffff772cc49    : mov	DS:[r13 + 0x8], rax   
+386781299313: system.cpu: 0x7ffff772cc4d    : mov	r8, DS:[rcx]          
+386781300565: system.cpu: 0x7ffff772cc50    : cmp	r8, 0x3               
+386781301817: system.cpu: 0x7ffff772cc54    : jz	0x96                   
+386781302443: system.cpu: 0x7ffff772cc5a    : cmp	r8, 0x4               
+386781303069: system.cpu: 0x7ffff772cc5e    : jz	0x70                   
+386781303695: system.cpu: 0x7ffff772ccd0    : mov	rax, DS:[rcx + 0x8]   
+386781304947: system.cpu: 0x7ffff772ccd4    : mov	rdi, DS:[rcx + 0x10]  
+386781306199: system.cpu: 0x7ffff772ccd8    : mov	ebx                   
+386781306825: system.cpu: 0x7ffff772ccda    : ror	0x11                  
+386781308703: system.cpu: 0x7ffff772ccde    : xor	rax, FS:[t0 + t0 + 0x30]
+386781310581: system.cpu: 0x7ffff772cce7    : call	                     
+386781311207: system.cpu: 0x1894c    : hint	                     
+386781794792: system.cpu: 0x18950    : cmp	DS:[rip + 0x90648], 0 
+386781795418: system.cpu: 0x18958    : lea	rdx, DS:[rip + 0x91cdd]
+386781796670: system.cpu: 0x1895f    : jnz	0x9                   
+386781797296: system.cpu: 0x1896a    : or	eax, 0xffffffffffffffff
+386782238000: system.cpu: 0x1896d    : xadd	DS:[rdx], eax        
+386782238626: system.cpu: 0x18971    : cmp	eax, 0x2              
+386782239252: system.cpu: 0x18974    : jnz	0x5d                  
+386782240504: system.cpu: 0x18976    : push	rcx                  
+386782241756: system.cpu: 0x18977    : lea	rdi, DS:[rip + 0x91a82]
+386783137875: system.cpu: 0x1897e    : call	0x17d13              
+386783799870: system.cpu: 0x30696    : jl	0xf
+386783800496: system.cpu: 0x30698    : ud2

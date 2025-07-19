@@ -1,0 +1,112 @@
+350973223539: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+350973223539: system.cpu.mmu.dtb: Mapping 0xf0000000 to 0xf0000
+350973223539: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+350973232500: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+350973232500: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 10 
+350973232500: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+350973247953: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+350973247953: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+350973257500: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+350999719799: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+350999879799: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+351318241248: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+351318241248: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+351318248447: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+351318248447: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 11 
+351318248447: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+351318265662: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+351318265662: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+351318272861: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+351319475361: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+351319635361: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+555796291939: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+555796291939: system.cpu.mmu.dtb: Mapping 0xf0000000 to 0xf0000
+555796291939: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+555796299138: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+555796299138: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 12 
+555796299138: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+555796315727: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+555796315727: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+555796322926: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+555879801638: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+555879961638: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+555995638509: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+555995638509: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+555995645708: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+555995645708: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 13 
+555995645708: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+555995663236: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+555995663236: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+555995670435: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+556023658208: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556023818208: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+556153610548: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556153610548: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556153617747: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+556153617747: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 14 
+556153617747: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556153635901: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556153635901: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556153643100: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+556176265600: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556176425600: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+556178508759: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556178508759: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556178515958: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+556178515958: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 13 
+556178515958: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556178533173: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556178533173: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556178540372: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+556205007872: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556205167872: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+556207149824: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556207149824: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556207157023: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+556207157023: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 14 
+556207157023: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556207173299: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556207173299: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556207180498: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+556229932023: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556230092023: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+556231752250: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556231752250: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556231759449: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+556231759449: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 15 
+556231759449: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556231775725: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556231775725: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556231782924: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+556258075424: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556258235424: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+556260218035: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556260218035: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556260225234: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+556260225234: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 16 
+556260225234: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556260243388: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+556260243388: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+556260250587: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+556260258087: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+556260558087: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+557530367027: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+557530367027: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+557530374226: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+557530374226: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 17 
+557530374226: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+557530390815: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+557530390815: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+557530398014: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+557581238014: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+557581398014: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ
+557583265279: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+557583265279: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+557583272478: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type WRITE
+557583272478: system.mem_ctrls.port: nvmain_mem.cc: WRITE data = 18 
+557583272478: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+557583274978: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type WRITE
+557583288441: system.cpu.mmu.dtb: Translating vaddr 0xf0000000.
+557583288441: system.cpu.mmu.dtb: Translated 0xf0000000 -> 0xf0000.
+557583295640: system.mem_ctrls.port: nvmain_mem.cc: Enqueued Mem request for 0xf0000 of type READ
+557583600640: system.mem_ctrls: nvmain_mem.cc: RequestComplete 0xf0000 of type READ

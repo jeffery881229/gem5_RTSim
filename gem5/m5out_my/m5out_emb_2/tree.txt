@@ -1,0 +1,503 @@
+.
+|-- CIFAR/
+|   |-- patch_16/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   |-- patch_32/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   `-- patch_8/
+|       |-- extract/
+|       |   |-- citations.bib
+|       |   |-- config.ini
+|       |   |-- config.json
+|       |   |-- fs/
+|       |   |   |-- proc/
+|       |   |   |   |-- cpuinfo
+|       |   |   |   `-- stat
+|       |   |   |-- sys/
+|       |   |   |   `-- devices/
+|       |   |   |       `-- system/
+|       |   |   |           `-- cpu/
+|       |   |   |               |-- online
+|       |   |   |               `-- possible
+|       |   |   `-- tmp/
+|       |   `-- stats.txt
+|       `-- pim/
+|           |-- citations.bib
+|           |-- config.ini
+|           |-- config.json
+|           |-- fs/
+|           |   |-- proc/
+|           |   |   |-- cpuinfo
+|           |   |   `-- stat
+|           |   |-- sys/
+|           |   |   `-- devices/
+|           |   |       `-- system/
+|           |   |           `-- cpu/
+|           |   |               |-- online
+|           |   |               `-- possible
+|           |   `-- tmp/
+|           `-- stats.txt
+|-- Flower/
+|   |-- patch_16/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   |-- patch_32/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   |-- patch_64/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   `-- patch_8/
+|       |-- extract/
+|       |   |-- citations.bib
+|       |   |-- config.ini
+|       |   |-- config.json
+|       |   |-- fs/
+|       |   |   |-- proc/
+|       |   |   |   |-- cpuinfo
+|       |   |   |   `-- stat
+|       |   |   |-- sys/
+|       |   |   |   `-- devices/
+|       |   |   |       `-- system/
+|       |   |   |           `-- cpu/
+|       |   |   |               |-- online
+|       |   |   |               `-- possible
+|       |   |   `-- tmp/
+|       |   `-- stats.txt
+|       `-- pim/
+|           |-- citations.bib
+|           |-- config.ini
+|           |-- config.json
+|           |-- fs/
+|           |   |-- proc/
+|           |   |   |-- cpuinfo
+|           |   |   `-- stat
+|           |   |-- sys/
+|           |   |   `-- devices/
+|           |   |       `-- system/
+|           |   |           `-- cpu/
+|           |   |               |-- online
+|           |   |               `-- possible
+|           |   `-- tmp/
+|           `-- stats.txt
+|-- ImageNet/
+|   |-- patch_16/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   |-- patch_32/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   |-- patch_64/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   `-- patch_8/
+|       |-- extract/
+|       |   |-- citations.bib
+|       |   |-- config.ini
+|       |   |-- config.json
+|       |   |-- fs/
+|       |   |   |-- proc/
+|       |   |   |   |-- cpuinfo
+|       |   |   |   `-- stat
+|       |   |   |-- sys/
+|       |   |   |   `-- devices/
+|       |   |   |       `-- system/
+|       |   |   |           `-- cpu/
+|       |   |   |               |-- online
+|       |   |   |               `-- possible
+|       |   |   `-- tmp/
+|       |   `-- stats.txt
+|       `-- pim/
+|           |-- citations.bib
+|           |-- config.ini
+|           |-- config.json
+|           |-- fs/
+|           |   |-- proc/
+|           |   |   |-- cpuinfo
+|           |   |   `-- stat
+|           |   |-- sys/
+|           |   |   `-- devices/
+|           |   |       `-- system/
+|           |   |           `-- cpu/
+|           |   |               |-- online
+|           |   |               `-- possible
+|           |   `-- tmp/
+|           `-- stats.txt
+|-- SVHN/
+|   |-- patch_16/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   |-- patch_32/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   |-- patch_64/
+|   |   |-- extract/
+|   |   |   |-- citations.bib
+|   |   |   |-- config.ini
+|   |   |   |-- config.json
+|   |   |   |-- fs/
+|   |   |   |   |-- proc/
+|   |   |   |   |   |-- cpuinfo
+|   |   |   |   |   `-- stat
+|   |   |   |   |-- sys/
+|   |   |   |   |   `-- devices/
+|   |   |   |   |       `-- system/
+|   |   |   |   |           `-- cpu/
+|   |   |   |   |               |-- online
+|   |   |   |   |               `-- possible
+|   |   |   |   `-- tmp/
+|   |   |   `-- stats.txt
+|   |   `-- pim/
+|   |       |-- citations.bib
+|   |       |-- config.ini
+|   |       |-- config.json
+|   |       |-- fs/
+|   |       |   |-- proc/
+|   |       |   |   |-- cpuinfo
+|   |       |   |   `-- stat
+|   |       |   |-- sys/
+|   |       |   |   `-- devices/
+|   |       |   |       `-- system/
+|   |       |   |           `-- cpu/
+|   |       |   |               |-- online
+|   |       |   |               `-- possible
+|   |       |   `-- tmp/
+|   |       `-- stats.txt
+|   `-- patch_8/
+|       |-- extract/
+|       |   |-- citations.bib
+|       |   |-- config.ini
+|       |   |-- config.json
+|       |   |-- fs/
+|       |   |   |-- proc/
+|       |   |   |   |-- cpuinfo
+|       |   |   |   `-- stat
+|       |   |   |-- sys/
+|       |   |   |   `-- devices/
+|       |   |   |       `-- system/
+|       |   |   |           `-- cpu/
+|       |   |   |               |-- online
+|       |   |   |               `-- possible
+|       |   |   `-- tmp/
+|       |   `-- stats.txt
+|       `-- pim/
+|           |-- citations.bib
+|           |-- config.ini
+|           |-- config.json
+|           |-- fs/
+|           |   |-- proc/
+|           |   |   |-- cpuinfo
+|           |   |   `-- stat
+|           |   |-- sys/
+|           |   |   `-- devices/
+|           |   |       `-- system/
+|           |   |           `-- cpu/
+|           |   |               |-- online
+|           |   |               `-- possible
+|           |   `-- tmp/
+|           `-- stats.txt
+`-- tree.txt
+
+259 directories, 241 files

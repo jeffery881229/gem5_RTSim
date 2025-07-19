@@ -1,0 +1,8 @@
+
+step1:
+perl m5-mcpat1.pl stats.txt config1.ini mcpat-template1.xml > out1.xml
+
+step2:
+./mcpat1 -infile out1.xml -print_level 5 -opt_for_clk 0 > $1/mcpat$i
+
+

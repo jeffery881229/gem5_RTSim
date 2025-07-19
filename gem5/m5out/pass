@@ -1,0 +1,100 @@
+386898102462: system.cpu: 0x7ffff7770c00    : mov	edx, DS:[rip + 0x34bdca]
+386898104966: system.cpu: 0x7ffff7770c06    : mov	DS:[rip + 0x34bdaf], 0
+386898106218: system.cpu: 0x7ffff7770c11    : cmp	edx                   
+386898107470: system.cpu: 0x7ffff7770c14    : jnz	0xfffffffffffffee6    
+386898108096: system.cpu: 0x7ffff7770c1a    : mov	rbx, DS:[rbx + 0x68]  
+386899268700: system.cpu: 0x7ffff7770c1e    : test	rbx                  
+386899269326: system.cpu: 0x7ffff7770c21    : jnz	0xfffffffffffffeec    
+386899269952: system.cpu: 0x7ffff7770b13    : test	r15d                 
+386899271204: system.cpu: 0x7ffff7770b16    : mov	DS:[rip + 0x34bea3], rbx
+386899272456: system.cpu: 0x7ffff7770b1d    : jz	0x4f                   
+386899273708: system.cpu: 0x7ffff7770b6e    : mov	edx, DS:[rbx + 0xc0]  
+386900287828: system.cpu: 0x7ffff7770b74    : test	edx                  
+386900289080: system.cpu: 0x7ffff7770b76    : jle	0xf4                  
+386900289706: system.cpu: 0x7ffff7770c70    : mov	rax, DS:[rbx + 0x20]  
+386900628685: system.cpu: 0x7ffff7770c74    : cmp	DS:[rbx + 0x28], rax  
+386900629311: system.cpu: 0x7ffff7770c78    : jnbe	0xffffffffffffff0f   
+386900630563: system.cpu: 0x7ffff7770c7e    : jmp	0xffffffffffffff3e    
+386900631189: system.cpu: 0x7ffff7770bc1    : test	r15d                 
+386900631815: system.cpu: 0x7ffff7770bc4    : jz	0x3a                   
+386900632441: system.cpu: 0x7ffff7770c00    : mov	edx, DS:[rip + 0x34bdca]
+386900634945: system.cpu: 0x7ffff7770c06    : mov	DS:[rip + 0x34bdaf], 0
+386900636197: system.cpu: 0x7ffff7770c11    : cmp	edx                   
+386900637449: system.cpu: 0x7ffff7770c14    : jnz	0xfffffffffffffee6    
+386900638075: system.cpu: 0x7ffff7770c1a    : mov	rbx, DS:[rbx + 0x68]  
+386900971107: system.cpu: 0x7ffff7770c1e    : test	rbx                  
+386900971733: system.cpu: 0x7ffff7770c21    : jnz	0xfffffffffffffeec    
+386900972985: system.cpu: 0x7ffff7770c27    : test	r15d                 
+386900973611: system.cpu: 0x7ffff7770c2a    : jz	0x9                    
+386900974863: system.cpu: 0x7ffff7770c35    : mov	rax, SS:[t0 + rsp + 0x4]
+386900976115: system.cpu: 0x7ffff7770c39    : test	eax                  
+386900976741: system.cpu: 0x7ffff7770c3b    : jz	0x1d                   
+386900977367: system.cpu: 0x7ffff7770c5a    : add	rsp, 0x38             
+386900978619: system.cpu: 0x7ffff7770c5e    : mov	r14d                  
+386900979871: system.cpu: 0x7ffff7770c61    : pop	rbx                   
+386900981123: system.cpu: 0x7ffff7770c62    : pop	rbp                   
+386900982375: system.cpu: 0x7ffff7770c63    : pop	r12                   
+386900983627: system.cpu: 0x7ffff7770c65    : pop	r13                   
+386900985505: system.cpu: 0x7ffff7770c67    : pop	r14                   
+386900986757: system.cpu: 0x7ffff7770c69    : pop	r15                   
+386900988009: system.cpu: 0x7ffff7770c6b    : ret	                      
+386900989261: system.cpu: 0x7ffff7770d15    : mov	rbx, DS:[rip + 0x34a484]
+386900990513: system.cpu: 0x7ffff7770d1c    : mov	eax                   
+386900991765: system.cpu: 0x7ffff7770d1f    : test	rbx                  
+386900992391: system.cpu: 0x7ffff7770d22    : jz	0xef                   
+386900993017: system.cpu: 0x7ffff7770d28    : lea	r12, DS:[rip + 0x346879]
+386900994269: system.cpu: 0x7ffff7770d2f    : lea	r13, DS:[rip + 0x345b02]
+386900995521: system.cpu: 0x7ffff7770d36    : mov	rbp, FS:[t0 + t0 + 0x10]
+386901369869: system.cpu: 0x7ffff7770d3f    : sub	r13                   
+386901370495: system.cpu: 0x7ffff7770d42    : hint	                     
+386901371121: system.cpu: 0x7ffff7770d48    : mov	edx, DS:[rbx]         
+386901372373: system.cpu: 0x7ffff7770d4a    : test	dl, 0x2              
+386901373625: system.cpu: 0x7ffff7770d4d    : jnz	0xad                  
+386901712917: system.cpu: 0x7ffff7770e00    : mov	DS:[rbx + 0xc0], 0xffffffffffffffff
+386901714169: system.cpu: 0x7ffff7770e0a    : mov	rbx, DS:[rbx + 0x68]  
+386901716047: system.cpu: 0x7ffff7770e0e    : test	rbx                  
+386901716673: system.cpu: 0x7ffff7770e11    : jnz	0xffffffffffffff31    
+386901717299: system.cpu: 0x7ffff7770d48    : mov	edx, DS:[rbx]         
+386901718551: system.cpu: 0x7ffff7770d4a    : test	dl, 0x2              
+386901719803: system.cpu: 0x7ffff7770d4d    : jnz	0xad                  
+386901721055: system.cpu: 0x7ffff7770d53    : and	edx, 0x1008           
+386901721681: system.cpu: 0x7ffff7770d59    : cmp	edx, 0x8              
+386901722933: system.cpu: 0x7ffff7770d5c    : jz	0x9e                   
+386901723559: system.cpu: 0x7ffff7770d62    : mov	eax, DS:[rbx + 0xc0]  
+386901724811: system.cpu: 0x7ffff7770d68    : test	eax                  
+386901725437: system.cpu: 0x7ffff7770d6a    : jz	0x90                   
+386901726689: system.cpu: 0x7ffff7770e00    : mov	DS:[rbx + 0xc0], 0xffffffffffffffff
+386901727941: system.cpu: 0x7ffff7770e0a    : mov	rbx, DS:[rbx + 0x68]  
+386901729819: system.cpu: 0x7ffff7770e0e    : test	rbx                  
+386901730445: system.cpu: 0x7ffff7770e11    : jnz	0xffffffffffffff31    
+386901731071: system.cpu: 0x7ffff7770d48    : mov	edx, DS:[rbx]         
+386901732323: system.cpu: 0x7ffff7770d4a    : test	dl, 0x2              
+386901733575: system.cpu: 0x7ffff7770d4d    : jnz	0xad                  
+386901734827: system.cpu: 0x7ffff7770d53    : and	edx, 0x1008           
+386901735453: system.cpu: 0x7ffff7770d59    : cmp	edx, 0x8              
+386901736705: system.cpu: 0x7ffff7770d5c    : jz	0x9e                   
+386901737957: system.cpu: 0x7ffff7770e00    : mov	DS:[rbx + 0xc0], 0xffffffffffffffff
+386901739209: system.cpu: 0x7ffff7770e0a    : mov	rbx, DS:[rbx + 0x68]  
+386901741087: system.cpu: 0x7ffff7770e0e    : test	rbx                  
+386901741713: system.cpu: 0x7ffff7770e11    : jnz	0xffffffffffffff31    
+386901742965: system.cpu: 0x7ffff7770e17    : add	rsp, 0x18             
+386901743591: system.cpu: 0x7ffff7770e1b    : mov	r14d                  
+386901744843: system.cpu: 0x7ffff7770e1e    : pop	rbx                   
+386901746095: system.cpu: 0x7ffff7770e1f    : pop	rbp                   
+386901747347: system.cpu: 0x7ffff7770e20    : pop	r12                   
+386901748599: system.cpu: 0x7ffff7770e22    : pop	r13                   
+386901749851: system.cpu: 0x7ffff7770e24    : pop	r14                   
+386901751103: system.cpu: 0x7ffff7770e26    : pop	r15                   
+386901752355: system.cpu: 0x7ffff7770e28    : ret	                      
+386901752981: system.cpu: 0x7ffff772cc9b    : add	rbp, 0x8              
+386901754233: system.cpu: 0x7ffff772cc9f    : cmp	r12                   
+386901754859: system.cpu: 0x7ffff772cca2    : jb	0xfffffffffffffff4     
+386901755485: system.cpu: 0x7ffff772cca4    : mov	ebx                   
+386901757363: system.cpu: 0x7ffff772cca6    : call	0x8c0c5              
+386902152369: system.cpu: 0x7ffff77b8d70    : movsxd	rdx                
+386902153621: system.cpu: 0x7ffff77b8d73    : mov	r10, DS:[rip + 0x3010d6]
+386902162385: system.cpu: 0x7ffff77b8d7a    : mov	r9d, 0xe7             
+386902492287: system.cpu: 0x7ffff77b8d80    : mov	r8d, 0x3c             
+386902492913: system.cpu: 0x7ffff77b8d86    : jmp	0x19                  
+386902493539: system.cpu: 0x7ffff77b8da1    : mov	rdx                   
+386902494165: system.cpu: 0x7ffff77b8da4    : mov	r9d 

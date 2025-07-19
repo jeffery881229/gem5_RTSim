@@ -1,0 +1,200 @@
+2404287500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2404287500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x000000000040057f A=0x100000000  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2412181500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2412181500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400545 A=0x100000001  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2413496500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2413496500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x000000000040054c A=0x100000002  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2414811500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2414811500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400546 A=0x100000003  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2416126500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2416126500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400502 A=0x100000004  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2417794500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2417794500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400501 A=0x100000005  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2419304500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2419304500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400501 A=0x100000006  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2420814500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2420814500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000007  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2422311500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2422311500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000008  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2423808500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2423808500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000009  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2425305500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2425305500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000000a  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2426802500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2426802500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000000b  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2428299500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2428299500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000000c  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2429796500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2429796500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000000d  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2431293500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2431293500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000000e  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2432790500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2432790500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000000f  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2434287500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2434287500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400502 A=0x100000010  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2435797500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2435797500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000011  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2437294500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2437294500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x000000000040053e A=0x100000012  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2438609500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2438609500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000013  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2440106500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2440106500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400501 A=0x100000014  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2441616500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2441616500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000015  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2443139500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2443139500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000016  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2444636500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2444636500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000017  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2446133500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2446133500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400590 A=0x100000018  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2447448500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2447448500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400504 A=0x100000019  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2448958500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2448958500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400540 A=0x10000001a  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2450273500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2450273500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000001b  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2451770500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2451770500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000001c  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2453267500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2453267500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000001d  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2454764500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2454764500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000001e  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2456261500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2456261500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000001f  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2457758500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2457758500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400540 A=0x100000020  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2459073500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2459073500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000021  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2460570500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2460570500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000022  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2462067500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2462067500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000023  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2463564500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2463564500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000024  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2465061500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2465061500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000025  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2466558500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2466558500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000026  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2468055500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2468055500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000027  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2469552500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2469552500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x00000000004005a8 A=0x100000028  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2470867500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2470867500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x000000000040053e A=0x100000029  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2472182500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2472182500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000002a  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2473705500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2473705500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000002b  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2475202500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2475202500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000002c  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2476699500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2476699500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000002d  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2478196500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2478196500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000002e  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2479693500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2479693500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000002f  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2481190500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2481190500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000030  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2482687500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2482687500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000031  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2484184500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2484184500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000032  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2485681500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2485681500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000033  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2487178500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2487178500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400540 A=0x100000034  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2488493500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2488493500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000035  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2489990500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2489990500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400538 A=0x100000036  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2491305500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2491305500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000037  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2492802500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2492802500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400509 A=0x100000038  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2494312500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2494312500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000039  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2495809500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2495809500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400540 A=0x10000003a  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2497124500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2497124500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000003b  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2498621500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2498621500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x000000000040051e A=0x10000003c  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2499936500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2499936500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000003d  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2501433500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2501433500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x000000000040051d A=0x10000003e  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2502748500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2502748500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000003f  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2504245500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2504245500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400506 A=0x100000040  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2505793500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2505793500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000041  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2507290500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2507290500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000042  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2508787500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2508787500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000043  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2510284500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2510284500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400504 A=0x100000044  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2511794500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2511794500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000045  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2513291500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2513291500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000046  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2514788500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2514788500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000047  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2516285500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2516285500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400540 A=0x100000048  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2517600500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2517600500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000049  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2519097500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2519097500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000004a  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2520594500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2520594500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000004b  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2522091500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2522091500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000004c  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2523588500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2523588500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000004d  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2525085500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2525085500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000004e  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2526582500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2526582500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000004f  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2528079500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2528079500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400540 A=0x100000050  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2529394500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2529394500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000051  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2530891500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2530891500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400540 A=0x100000052  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2532206500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2532206500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000053  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2533703500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2533703500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000054  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2535200500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2535200500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000055  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2536723500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2536723500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000056  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2538220500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2538220500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000057  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2539717500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2539717500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400540 A=0x100000058  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2541032500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2541032500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000059  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2542529500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2542529500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400540 A=0x10000005a  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2543844500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2543844500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000005b  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2545341500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2545341500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000005c  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2546838500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2546838500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000005d  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2548335500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2548335500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000005e  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2549832500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2549832500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x10000005f  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2551329500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2551329500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x00000000004005f8 A=0x100000060  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2552644500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2552644500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400501 A=0x100000061  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2554154500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2554154500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000062  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)
+2555651500: system.cpu: A0 T0 : 0x4005a7 @main+48    : movzx	eax, DS:[rax]       
+2555651500: system.cpu: A0 T0 : 0x4005a7 @main+48. 0 :   MOVZX_B_R_M : ld   t1b, DS:[rax] : MemRead :  D=0x0000000000400500 A=0x100000063  flags=(IsInteger|IsLoad|IsMicroop|IsDelayedCommit|IsFirstMicroop)

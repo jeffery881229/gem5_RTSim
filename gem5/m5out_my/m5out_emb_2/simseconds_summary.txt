@@ -1,0 +1,16 @@
+# dataset  patch  simSeconds
+CIFAR  patch_8  11510842
+CIFAR  patch_16  13119898
+CIFAR  patch_32  8490331
+ImageNet  patch_8  5001811
+ImageNet  patch_16  9607353
+ImageNet  patch_32  8303547
+ImageNet  patch_64  6809474
+Flower  patch_8  2511849
+Flower  patch_16  4973976
+Flower  patch_32  7328052
+Flower  patch_64  6710590
+SVHN  patch_8  7203737
+SVHN  patch_16  3041765
+SVHN  patch_32  6014094
+SVHN  patch_64  6672439

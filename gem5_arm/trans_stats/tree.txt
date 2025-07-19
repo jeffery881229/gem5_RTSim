@@ -1,0 +1,740 @@
+.
+|-- m5out_102_Flower_128_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_128_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_128_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_128_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_224_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_224_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_224_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_32_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_32_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_32_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_32_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_64_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_64_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_64_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_102_Flower_64_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_128_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_128_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_128_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_128_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_224_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_224_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_224_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_32_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_32_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_32_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_32_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_64_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_64_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_64_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_CIFAR_64_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_128_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_128_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_224_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_224_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_224_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_32_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_32_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_32_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_32_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_64_CPU2_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_64_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_SVHN_64_CPU3_pim/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_svhn_128_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_svhn_128_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_svhn_224_CPU3/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+|-- m5out_svhn_64_CPU2/
+|   |-- citations.bib
+|   |-- config.ini
+|   |-- config.json
+|   |-- fs/
+|   |   |-- proc/
+|   |   |   |-- cpuinfo
+|   |   |   `-- stat
+|   |   |-- sys/
+|   |   |   `-- devices/
+|   |   |       `-- system/
+|   |   |           `-- cpu/
+|   |   |               |-- online
+|   |   |               `-- possible
+|   |   `-- tmp/
+|   `-- stats.txt
+`-- tree.txt
+
+368 directories, 369 files
