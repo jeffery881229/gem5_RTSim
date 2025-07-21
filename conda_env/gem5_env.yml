@@ -1,0 +1,21 @@
+name: gem5_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - gcc_linux-64
+  - gxx_linux-64
+  - python=3.8
+  - scons
+  - six
+  - gperftools
+  - protobuf
+  - capstone
+  - libpng
+  - hdf5
+  - gcc==11.4.0
+  - pybind11
+  - cmake
+  - boost
+  - clang
+prefix: /RAID2/LAB/css/cssRA01/miniconda3/envs/gem5_env

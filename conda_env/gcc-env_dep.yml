@@ -1,0 +1,43 @@
+name: gcc-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - binutils_impl_linux-64=2.43=h4bf12b8_1
+  - binutils_linux-64=2.43=h4852527_1
+  - bzip2=1.0.8=h5eee18b_6
+  - ca-certificates=2024.9.24=h06a4308_0
+  - expat=2.6.3=h6a678d5_0
+  - gcc_impl_linux-64=14.2.0=h6b349bd_1
+  - gcc_linux-64=14.2.0=h5910c8f_5
+  - gxx_impl_linux-64=14.2.0=h2c03514_1
+  - gxx_linux-64=14.2.0=h9423afd_5
+  - kernel-headers_linux-64=3.10.0=he073ed8_17
+  - ld_impl_linux-64=2.43=h712a8e2_1
+  - libffi=3.4.4=h6a678d5_1
+  - libgcc=14.2.0=h77fa898_1
+  - libgcc-devel_linux-64=14.2.0=h41c2201_101
+  - libgcc-ng=14.2.0=h69a702a_1
+  - libgomp=14.2.0=h77fa898_1
+  - libsanitizer=14.2.0=h2a3dede_1
+  - libstdcxx=14.2.0=hc0a3c3a_1
+  - libstdcxx-devel_linux-64=14.2.0=h41c2201_101
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libuuid=1.41.5=h5eee18b_0
+  - ncurses=6.4=h6a678d5_0
+  - openssl=3.0.15=h5eee18b_0
+  - pip=24.2=py312h06a4308_0
+  - pkg-config=0.29.2=h1bed415_8
+  - python=3.12.7=h5148396_0
+  - readline=8.2=h5eee18b_0
+  - setuptools=75.1.0=py312h06a4308_0
+  - sqlite=3.45.3=h5eee18b_0
+  - sysroot_linux-64=2.17=h4a8ded7_17
+  - tk=8.6.14=h39e8969_0
+  - tzdata=2024b=hc8b5060_0
+  - wheel=0.44.0=py312h06a4308_0
+  - xz=5.4.6=h5eee18b_1
+  - zlib=1.2.13=h5eee18b_1
+prefix: /RAID2/LAB/css/cssRA01/miniconda3/envs/gcc-env
