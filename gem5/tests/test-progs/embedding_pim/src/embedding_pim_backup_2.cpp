@@ -436,12 +436,12 @@ int main(){
     FILE *fp = nullptr;
     for (int idx = 0; idx < numImages; idx++) {
         // 組出檔名，例如 "/…/svhn_img0_224x224.bin"
-std::snprintf(filename, sizeof(filename),             "/RAID2/LAB/css/cssRA01/gem5/data_set/SVHN/svhn_img%d_224x224.bin", idx);        
+std::snprintf(filename, sizeof(filename),             "/data_set/SVHN/svhn_img%d_224x224.bin", idx);        
         /*
-        /RAID2/LAB/css/cssRA01/gem5/data_set/CIFAR-10/cifar_img0_32x32.bin
-        /RAID2/LAB/css/cssRA01/gem5/data_set/ImageNet_ILSVRC-2012/imagenet_img0_64x64.bin
-        /RAID2/LAB/css/cssRA01/gem5/data_set/Oxford_102_Flower/flower_img0_128x128.bin
-        /RAID2/LAB/css/cssRA01/gem5/data_set/SVHN/svhn_img0_224x224.bin
+        /data_set/CIFAR-10/cifar_img0_32x32.bin
+        /data_set/ImageNet_ILSVRC-2012/imagenet_img0_64x64.bin
+        /data_set/Oxford_102_Flower/flower_img0_128x128.bin
+        /data_set/SVHN/svhn_img0_224x224.bin
         */
         fp = std::fopen(filename, "rb");
         if (!fp) {

@@ -5,15 +5,16 @@
 # scons EXTRAS=../RT_SIM_IMC build/X86/gem5.opt -j32
 
 ./build/X86/gem5.opt \
---outdir=m5out_12_layer/baseline_128img_m5op \
 configs/deprecated/example/se.py \
--c tests/test-progs/transformer_sim/bin/x86/linux/transformer_sim \
+-c tests/test-progs/embedding_pim/bin/x86/linux/embedding_pim \
 --mem-type=NVMainMemory \
 --caches --l2cache --l1i_size 32kB --l1d_size 32kB --l2_size 2MB \
---cpu-type=X86O3CPU \
+--cpu-type=X86TimingSimpleCPU \
 --cpu-clock=3.2GHz \
 --sys-clock=400MHz \
 --nvmain-config=../RT_SIM_IMC/Config/SK.config
+
+# --outdir=m5out_12_layer/baseline_128img_m5op \
 
 # X86O3CPU
 # X86TimingSimpleCPU

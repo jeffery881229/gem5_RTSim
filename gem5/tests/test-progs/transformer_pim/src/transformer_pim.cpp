@@ -39,8 +39,8 @@
 // --------------------- ViT 參數 (可自行調整) ----------------------
 
 // 假設我們的輸入影像大小: H x W x C
-static const int imageH   = 128;   // 圖片高度 (示例)
-static const int imageW   = 128;   // 圖片寬度 (示例)
+static const int imageH   = 32;   // 圖片高度 (示例)
+static const int imageW   = 32;   // 圖片寬度 (示例)
 static const int imageC   = 3;   // 圖片通道 (RGB)
 
 // Patch 大小
@@ -57,6 +57,12 @@ static const int dHead    = dModel / numHeads;  // 每個 head 的維度 (192)
 // Feed Forward hidden dim (在 Encoder Block 內的 MLP)
 static const int dFF      = 16;  
 
+static const char* DATASETS[] = {
+    "data_set/CIFAR-10/cifar_img0_32x32.bin",
+    "data_set/ImageNet_ILSVRC-2012/imagenet_img0_64x64.bin",
+    "data_set/Oxford_102_Flower/flower_img0_128x128.bin",
+    "data_set/SVHN/svhn_img0_224x224.bin"
+};
 
 // --------------------- 型別定義與工具函式 ----------------------
 
@@ -404,13 +410,14 @@ int main(){
     // 1. 從記憶體讀取圖像
     uint8_t *image_data = (uint8_t *)malloc(imageH * imageW * imageC * sizeof(uint8_t));
     // 讀取已經 resize 好的 image data (.bin 格式)
-    FILE *fp = fopen("/RAID2/LAB/css/cssRA01/gem5/data_set/CIFAR-10/cifar10_img0_128x128.bin", "rb");
-    /*
-    /RAID2/LAB/css/cssRA01/gem5/data_set/CIFAR-10/cifar10_img0_128x128.bin
-    /RAID2/LAB/css/cssRA01/gem5/data_set/ImageNet_ILSVRC-2012/ILSVRC2012_val_00000024_128x128.bin
-    /RAID2/LAB/css/cssRA01/gem5/data_set/Oxford_102_Flower/flower_img0_128x128.bin
-    /RAID2/LAB/css/cssRA01/gem5/data_set/SVHN/svhn_img0_128x128.bin
-    */
+    // 0: CIFAR-10
+    // 1: ImageNet_ILSVRC-2012
+    // 2: Oxford_102_Flower
+    // 3: SVHN
+    const char* path = DATASETS[0];
+    std::cout << "Reading: " << path << '\n';
+    FILE *fp = fopen(path, "rb");
+
     if (!fp) {
         std::cerr << "[Error] Failed to open image file!\n";
         return -1;

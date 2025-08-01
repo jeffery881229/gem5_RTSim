@@ -402,36 +402,36 @@ int main(){
     std::srand((unsigned)std::time(nullptr));
 
     // 1. 從記憶體讀取圖像
-    // uint8_t *image_data = (uint8_t *)malloc(imageH * imageW * imageC * sizeof(uint8_t));
-    // // 讀取已經 resize 好的 image data (.bin 格式)
-    // FILE *fp = fopen("/RAID2/LAB/css/cssRA01/gem5/data_set/SVHN/svhn_img0_32x32.bin", "rb");
-    // /*
-    // /RAID2/LAB/css/cssRA01/gem5/data_set/CIFAR-10/cifar10_img0_32x32.bin
-    // /RAID2/LAB/css/cssRA01/gem5/data_set/ImageNet_ILSVRC-2012/ILSVRC2012_val_00000024_32x32.bin
-    // /RAID2/LAB/css/cssRA01/gem5/data_set/Oxford_102_Flower/flower_img0_32x32.bin
-    // /RAID2/LAB/css/cssRA01/gem5/data_set/SVHN/svhn_img0_32x32.bin
-    // */
-    // if (!fp) {
-    //     std::cerr << "[Error] Failed to open image file!\n";
-    //     return -1;
-    // }
+    uint8_t *image_data = (uint8_t *)malloc(imageH * imageW * imageC * sizeof(uint8_t));
+    // 讀取已經 resize 好的 image data (.bin 格式)
+    FILE *fp = fopen("data_set/SVHN/svhn_img0_32x32.bin", "rb");
+    /*
+    data_set/CIFAR-10/cifar10_img0_32x32.bin
+    data_set/ImageNet_ILSVRC-2012/ILSVRC2012_val_00000024_32x32.bin
+    data_set/Oxford_102_Flower/flower_img0_32x32.bin
+    data_set/SVHN/svhn_img0_32x32.bin
+    */
+    if (!fp) {
+        std::cerr << "[Error] Failed to open image file!\n";
+        return -1;
+    }
 
-    // size_t expected_size = imageH * imageW * imageC;
-    // size_t read_size = fread(image_data, sizeof(uint8_t), expected_size, fp);
-    // fclose(fp);
+    size_t expected_size = imageH * imageW * imageC;
+    size_t read_size = fread(image_data, sizeof(uint8_t), expected_size, fp);
+    fclose(fp);
 
-    // if (read_size != expected_size) {
-    //     std::cerr << "[Error] Image size mismatch: expected " << expected_size
-    //               << ", but got " << read_size << "\n";
-    //     return -1;
-    // }
+    if (read_size != expected_size) {
+        std::cerr << "[Error] Image size mismatch: expected " << expected_size
+                  << ", but got " << read_size << "\n";
+        return -1;
+    }
 
-    // std::cout << "[Info] Loaded image data successfully.\n";
-    // std::cout << "[Info] First 16 bits of image_data: ";
-    // std::bitset<8> byte1(image_data[0]);
-    // std::bitset<8> byte2(image_data[1]);
-    // std::cout << byte1 << " " << byte2 << std::endl;
-    // printf("image_data: %p\n", (void*)image_data);
+    std::cout << "[Info] Loaded image data successfully.\n";
+    std::cout << "[Info] First 16 bits of image_data: ";
+    std::bitset<8> byte1(image_data[0]);
+    std::bitset<8> byte2(image_data[1]);
+    std::cout << byte1 << " " << byte2 << std::endl;
+    printf("image_data: %p\n", (void*)image_data);
 
     // 2. 準備 Patch Embedding 的權重
     int patchFlattenDim = patchSize * patchSize * imageC; 
