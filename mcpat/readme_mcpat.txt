@@ -1,12 +1,12 @@
 1. 準備好stats
 
-2. 前往 "/RAID2/LAB/css/cssRA01/gem5/ext/mcpat/test_3/Gem5ToMcPAT-Parser"
+2. 前往 "../gem5/ext/mcpat/test_3/Gem5ToMcPAT-Parser"
 
 3. 執行 create_mcpat_input.py
 
 --------------------------------
 
-4. 前往 /RAID2/LAB/css/cssRA01/test_gem5/gem5/ext/mcpat
+4. 前往 /mcpat
 
 5. conda activate gcc-env
 

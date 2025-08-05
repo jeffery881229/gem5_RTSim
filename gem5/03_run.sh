@@ -6,10 +6,10 @@
 
 ./build/X86/gem5.opt \
 configs/deprecated/example/se.py \
--c tests/test-progs/embedding_pim/bin/x86/linux/embedding_pim \
+-c tests/test-progs/embedding_pim/bin/x86/linux/embedding_pim_backup \
 --mem-type=NVMainMemory \
 --caches --l2cache --l1i_size 32kB --l1d_size 32kB --l2_size 2MB \
---cpu-type=X86TimingSimpleCPU \
+--cpu-type=X86AtomicSimpleCPU \
 --cpu-clock=3.2GHz \
 --sys-clock=400MHz \
 --nvmain-config=../RT_SIM_IMC/Config/SK.config

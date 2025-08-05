@@ -20,7 +20,7 @@
         "exit_on_work_items": false,
         "init_param": 0,
         "m5ops_base": 0,
-        "mem_mode": "timing",
+        "mem_mode": "atomic",
         "mem_ranges": [
             "0:536870912"
         ],
@@ -102,8 +102,8 @@
         },
         "cpu": [
             {
-                "type": "BaseTimingSimpleCPU",
-                "cxx_class": "gem5::TimingSimpleCPU",
+                "type": "BaseAtomicSimpleCPU",
+                "cxx_class": "gem5::AtomicSimpleCPU",
                 "name": "cpu",
                 "path": "system.cpu",
                 "branchPred": null,
@@ -342,6 +342,8 @@
                 "progress_interval": 0,
                 "pwr_gating_latency": 300,
                 "simpoint_start_insts": [],
+                "simulate_data_stalls": false,
+                "simulate_inst_stalls": false,
                 "socket_id": 0,
                 "switched_out": false,
                 "syscallRetryLatency": 10000,
@@ -360,6 +362,7 @@
                     },
                     "eventq_index": 0
                 },
+                "width": 1,
                 "workload": [
                     {
                         "type": "Process",
@@ -367,17 +370,17 @@
                         "name": "workload",
                         "path": "system.cpu.workload",
                         "cmd": [
-                            "tests/test-progs/embedding_pim/bin/x86/linux/embedding_pim"
+                            "tests/test-progs/embedding_pim/bin/x86/linux/embedding_pim_backup"
                         ],
-                        "cwd": "/RAID2/LAB/css/cssRA01/imc_gem5/gem5",
+                        "cwd": "/home/jeffery1229/gem5_RTSim/gem5",
                         "drivers": [],
                         "egid": 100,
                         "env": [],
                         "errout": "cerr",
                         "euid": 100,
                         "eventq_index": 0,
-                        "executable": "tests/test-progs/embedding_pim/bin/x86/linux/embedding_pim",
-                        "gid": 10041,
+                        "executable": "tests/test-progs/embedding_pim/bin/x86/linux/embedding_pim_backup",
+                        "gid": 1000,
                         "input": "cin",
                         "kvmInSE": false,
                         "maxStackSize": 134217728,

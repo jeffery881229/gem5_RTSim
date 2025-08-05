@@ -1,7 +1,7 @@
 # g++ -o ../bin/x86/linux/transformer_pim transformer_pim.cpp -pthread -std=c++11
 # g++ -static-libstdc++ -static-libgcc -o ../bin/x86/linux/transformer_pim transformer_pim.cpp -pthread -std=c++11
 
-g++ -static-libstdc++ -static-libgcc \
+/usr/bin/g++ -static-libstdc++ -static-libgcc \
     -O0 \
     -fno-builtin \
     -fno-tree-loop-distribute-patterns \

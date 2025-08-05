@@ -403,12 +403,12 @@ int main(){
     // 1. 從記憶體讀取圖像
     uint8_t *image_data = (uint8_t *)malloc(imageH * imageW * imageC * sizeof(uint8_t));
     // 讀取已經 resize 好的 image data (.bin 格式)
-    FILE *fp = fopen("/data_set/CIFAR-10/cifar_img0_32x32.bin", "rb");
+    FILE *fp = fopen("data_set/CIFAR-10/cifar_img0_32x32.bin", "rb");
     /*
-    /data_set/CIFAR-10/cifar10_img0_32x32.bin
-    /data_set/ImageNet_ILSVRC-2012/ILSVRC2012_val_00000024_64x64.bin
-    /data_set/Oxford_102_Flower/flower_img0_128x128.bin
-    /data_set/SVHN/svhn_img0_224x224.bin
+    data_set/CIFAR-10/cifar10_img0_32x32.bin
+    data_set/ImageNet_ILSVRC-2012/ILSVRC2012_val_00000024_64x64.bin
+    data_set/Oxford_102_Flower/flower_img0_128x128.bin
+    data_set/SVHN/svhn_img0_224x224.bin
     */
     if (!fp) {
         std::cerr << "[Error] Failed to open image file!\n";

@@ -1,5 +1,5 @@
-# g++ -o ../bin/x86/linux/transformer_pim transformer_pim.cpp -pthread -std=c++11
-# g++ -static-libstdc++ -static-libgcc -o ../bin/x86/linux/transformer_pim transformer_pim.cpp -pthread -std=c++11
+# g++ -o ../bin/x86/linux/embedding_pim embedding_pim.cpp -pthread -std=c++11
+# g++ -static-libstdc++ -static-libgcc -o ../bin/x86/linux/embedding_pim embedding_pim.cpp -pthread -std=c++11
 
 g++ -static-libstdc++ -static-libgcc \
     -O0 \

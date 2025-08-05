@@ -194,7 +194,7 @@ Export('main')
 
 # Set the linker to the C++ compiler
 # 指定 C++ 編譯器和鏈接器的路徑
-main['CXX'] = '/RAID2/LAB/css/cssRA01/miniconda3/envs/gem5_env/bin/x86_64-conda-linux-gnu-g++'
+main['CXX'] = '/home/jeffery1229/miniconda3/envs/gem5_env/bin/g++'
 main['LINK'] = main['CXX']
 
 from gem5_scons.util import get_termcap
@@ -505,8 +505,8 @@ def config_embedded_python(env):
 
     env.Prepend(CPPPATH=Dir('ext/pybind11/include/'))
 
-    env.Append(CPPPATH=['/RAID2/LAB/css/cssRA01/miniconda3/envs/gem5_env/include/'])
-    env.Append(LIBPATH=['/RAID2/LAB/css/cssRA01/miniconda3/envs/gem5_env/lib/'])
+    env.Append(CPPPATH=['/home/jeffery1229/miniconda3/envs/gem5_env/include/'])
+    env.Append(LIBPATH=['/home/jeffery1229/miniconda3/envs/gem5_env/lib/'])
     env.Append(LIBS=['python3.8'])  # 根據實際情況修改 Python 版本
 
     with gem5_scons.Configure(env) as conf:
@@ -799,8 +799,8 @@ for variant_path in variant_paths:
 
     env['HAVE_PKG_CONFIG'] = env.Detect('pkg-config') == 'pkg-config'
 
-    zlib_include_path = "/RAID2/LAB/css/cssRA01/miniconda3/include"
-    zlib_lib_path = "/RAID2/LAB/css/cssRA01/miniconda3/lib"
+    zlib_include_path = "/home/jeffery1229/miniconda3/envs/gem5_env/include"
+    zlib_lib_path = "/home/jeffery1229/miniconda3/envs/gem5_env/lib"
 
     env.Append(CPPPATH=[zlib_include_path])  # 指定 zlib 的头文件路径
     env.Append(LIBPATH=[zlib_lib_path])      # 指定 zlib 的库路径
@@ -809,9 +809,13 @@ for variant_path in variant_paths:
 
     with gem5_scons.Configure(env) as conf:
         # On Solaris you need to use libsocket for socket ops
-        if not conf.CheckLibWithHeader(
-                [None, 'socket'], 'sys/socket.h', 'C++', 'accept(0,0,0);'):
-           error("Can't find library with socket calls (e.g. accept()).")
+        # if not conf.CheckLibWithHeader(
+        #         [None, 'socket'], 'sys/socket.h', 'C++', 'accept(0,0,0);'):
+        #    error("Can't find library with socket calls (e.g. accept()).")
+        if not sys.platform.startswith("linux"):
+            if not conf.CheckLibWithHeader(
+                    [None, 'socket'], 'sys/socket.h', 'C++', 'accept(0,0,0);'):
+                error("Can't find library with socket calls (e.g. accept()).")
 
         if not conf.CheckLibWithHeader('z', 'zlib.h', 'C++','zlibVersion();'):
             error('Did not find needed zlib compression library '

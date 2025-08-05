@@ -18,4 +18,3 @@ dependencies:
   - cmake
   - boost
   - clang
-prefix: /RAID2/LAB/css/cssRA01/miniconda3/envs/gem5_env

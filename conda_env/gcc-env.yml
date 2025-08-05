@@ -7,4 +7,3 @@ dependencies:
   - gxx_linux-64
   - python=3.12
   - pkg-config
-prefix: /RAID2/LAB/css/cssRA01/miniconda3/envs/gcc-env
