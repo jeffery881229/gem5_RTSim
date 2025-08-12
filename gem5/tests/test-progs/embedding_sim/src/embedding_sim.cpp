@@ -7,12 +7,6 @@
 #include <cstdint>  // for uint8_t, int8_t
 #include <bitset>
 
-// ---------------------- 追加或調整的巨集定義 ----------------------
-// #define INPUT_ADDR 0x100000000ULL  // Starting virtual address of the image
-// #define IMG_HEIGHT 64
-// #define IMG_WIDTH 64
-// #define NUM_CHANNELS 3
-
 // Add quantization parameters
 #define SCALE_FACTOR 127.0f
 #define ZERO_POINT    0
@@ -146,50 +140,6 @@ void addBias(Matrix &mat, const std::vector<double> &bias) {
     }
 }
 
-// 對每個 row 做 softmax
-void rowSoftmax(Matrix &mat) {
-    for(int i = 0; i < (int)mat.size(); i++){
-        double maxVal = -1e9;
-        for(int j = 0; j < (int)mat[i].size(); j++){
-            if(mat[i][j] > maxVal) maxVal = mat[i][j];
-        }
-        double sumExp = 0.0;
-        for(int j = 0; j < (int)mat[i].size(); j++){
-            sumExp += std::exp(mat[i][j] - maxVal);
-        }
-        for(int j = 0; j < (int)mat[i].size(); j++){
-            mat[i][j] = std::exp(mat[i][j] - maxVal) / sumExp;
-        }
-    }
-}
-
-// LayerNorm 
-void layerNormInPlace(Matrix &mat, double eps = 1e-5) {
-    int rows = mat.size();
-    if(rows == 0) return;
-    int cols = mat[0].size();
-    
-    for(int i = 0; i < rows; i++){
-        double mean = 0.0;
-        for(int j = 0; j < cols; j++){
-            mean += mat[i][j];
-        }
-        mean /= (double)cols;
-        
-        double var = 0.0;
-        for(int j = 0; j < cols; j++){
-            double diff = (mat[i][j] - mean);
-            var += diff * diff;
-        }
-        var /= (double)cols;
-        
-        double inv = 1.0 / std::sqrt(var + eps);
-        for(int j = 0; j < cols; j++){
-            mat[i][j] = (mat[i][j] - mean) * inv;
-        }
-    }
-}
-
 // --------------------- Patch Embedding ----------------------
 Matrix patchEmbedding(
     uint8_t* image_data,
@@ -238,146 +188,7 @@ Matrix patchEmbedding(
     return tokens;
 }
 
-// --------------------- Multi-Head Self-Attention ----------------------
-Matrix multiHeadSelfAttention(
-    const Matrix &X,   // (nTokens, dModel)
-    const Matrix &Wq,
-    const Matrix &Wk,
-    const Matrix &Wv,
-    const Matrix &Wo,
-    const std::vector<double> &bq,
-    const std::vector<double> &bk,
-    const std::vector<double> &bv,
-    const std::vector<double> &bo
-){
-    int nTokens = X.size();
-    // Q, K, V
-    Matrix Q = matmulOffloadInt8(X, Wq);
-    addBias(Q, bq);
-
-    Matrix K = matmulOffloadInt8(X, Wk);
-    addBias(K, bk);
-
-    Matrix V = matmulOffloadInt8(X, Wv);
-    addBias(V, bv);
-
-    // 分多頭
-    Matrix outAll = createMatrix(nTokens, dModel, 0.0);
-
-    for(int h = 0; h < numHeads; h++){
-        // Qh, Kh, Vh = (nTokens, dHead)
-        Matrix Qh = createMatrix(nTokens, dHead, 0.0);
-        Matrix Kh = createMatrix(nTokens, dHead, 0.0);
-        Matrix Vh = createMatrix(nTokens, dHead, 0.0);
-
-        for(int i = 0; i < nTokens; i++){
-            for(int j = 0; j < dHead; j++){
-                Qh[i][j] = Q[i][h*dHead + j];
-                Kh[i][j] = K[i][h*dHead + j];
-                Vh[i][j] = V[i][h*dHead + j];
-            }
-        }
-
-        // scores = Qh x Kh^T / sqrt(dHead)
-        // Qh: (nTokens, dHead), Kh^T: (dHead, nTokens)
-        // matmulOffloadInt8 expects (Matrix, Matrix)
-        // 先轉 Kh => KhT
-        Matrix KhT = createMatrix(dHead, nTokens);
-        for(int i = 0; i < nTokens; i++){
-            for(int j = 0; j < dHead; j++){
-                KhT[j][i] = Kh[i][j];
-            }
-        }
-
-        Matrix scores = matmulOffloadInt8(Qh, KhT);
-        double scale = 1.0 / std::sqrt((double)dHead);
-        for(int i = 0; i < nTokens; i++){
-            for(int j = 0; j < nTokens; j++){
-                scores[i][j] *= scale;
-            }
-        }
-        rowSoftmax(scores);
-
-        // context = scores x Vh
-        Matrix context = matmulOffloadInt8(scores, Vh);
-
-        // 放回 outAll
-        for(int i = 0; i < nTokens; i++){
-            for(int j = 0; j < dHead; j++){
-                outAll[i][h*dHead + j] = context[i][j];
-            }
-        }
-    }
-
-    // 乘 Wo
-    Matrix out = matmulOffloadInt8(outAll, Wo);
-    addBias(out, bo);
-
-    return out;
-}
-
-// --------------------- Feed Forward (MLP) ----------------------
-Matrix feedForward(
-    const Matrix &X,
-    const Matrix &W1,
-    const Matrix &W2,
-    const std::vector<double> &b1,
-    const std::vector<double> &b2
-){
-    Matrix hidden = matmulOffloadInt8(X, W1);
-    addBias(hidden, b1);
-
-    // ReLU
-    for(int i = 0; i < (int)hidden.size(); i++){
-        for(int j = 0; j < (int)hidden[i].size(); j++){
-            hidden[i][j] = std::max(0.0, hidden[i][j]);
-        }
-    }
-
-    Matrix out = matmulOffloadInt8(hidden, W2);
-    addBias(out, b2);
-    return out;
-}
-
-// --------------------- 單層 Transformer Encoder (含 LayerNorm) ----------------------
-Matrix transformerEncoderLayer(
-    const Matrix &X,
-    // MHA 權重
-    const Matrix &Wq, const Matrix &Wk, const Matrix &Wv, const Matrix &Wo,
-    const std::vector<double> &bq, const std::vector<double> &bk,
-    const std::vector<double> &bv, const std::vector<double> &bo,
-    // FFN 權重
-    const Matrix &W1, const Matrix &W2,
-    const std::vector<double> &b1, const std::vector<double> &b2
-){
-    // 1) MHA
-    Matrix attnOut = multiHeadSelfAttention(X, Wq, Wk, Wv, Wo, bq, bk, bv, bo);
-
-    // 2) Residual + LayerNorm
-    Matrix X_attn = createMatrix(X.size(), dModel, 0.0);
-    for(int i = 0; i < (int)X.size(); i++){
-        for(int j = 0; j < dModel; j++){
-            X_attn[i][j] = X[i][j] + attnOut[i][j];
-        }
-    }
-    layerNormInPlace(X_attn);
-
-    // 3) Feed Forward
-    Matrix ffnOut = feedForward(X_attn, W1, W2, b1, b2);
-
-    // 4) Residual + LayerNorm
-    Matrix X_out = createMatrix(X_attn.size(), dModel, 0.0);
-    for(int i = 0; i < (int)X_attn.size(); i++){
-        for(int j = 0; j < dModel; j++){
-            X_out[i][j] = X_attn[i][j] + ffnOut[i][j];
-        }
-    }
-    layerNormInPlace(X_out);
-
-    return X_out;
-}
-
-
+// 處理多張圖片 (下面有只處理一張圖片的 code)
 int main(){
     std::srand((unsigned)std::time(nullptr));
 
@@ -510,6 +321,7 @@ int main(){
     return 0;
 }
 
+// 只處理一張圖片
 // int main(){
 //     std::srand((unsigned)std::time(nullptr));
 

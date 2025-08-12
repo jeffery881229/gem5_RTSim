@@ -7,12 +7,6 @@
 #include <cstdint>  // for uint8_t, int8_t
 #include <bitset>
 
-// ---------------------- 追加或調整的巨集定義 ----------------------
-#define INPUT_ADDR 0x100000000ULL  // Starting virtual address of the image
-#define IMG_HEIGHT 64
-#define IMG_WIDTH 64
-#define NUM_CHANNELS 3
-
 // Add quantization parameters
 #define SCALE_FACTOR 127.0f
 #define ZERO_POINT    0
@@ -520,25 +514,26 @@ int main(){
     initMatrixRand(W1);
     initMatrixRand(W2);
 
+    // 5. 執行1層 Encoder
+    Matrix encoderOut = transformerEncoderLayer(tokens,
+                                                Wq, Wk, Wv, Wo,
+                                                bq, bk, bv, bo,
+                                                W1, W2, b1, b2);
     // 5. 執行12層 Encoder
-    // Matrix encoderOut = transformerEncoderLayer(tokens,
-    //                                             Wq, Wk, Wv, Wo,
-    //                                             bq, bk, bv, bo,
-    //                                             W1, W2, b1, b2);
-    Matrix X = tokens;   // 進入第一層前的輸入
-    for (int layer = 0; layer < 12; ++layer) {
-        X = transformerEncoderLayer(
-                X,
-                Wq, Wk, Wv, Wo,
-                bq, bk, bv, bo,
-                W1, W2, b1, b2
-            );
-    }
+    // Matrix X = tokens;   // 進入第一層前的輸入
+    // for (int layer = 0; layer < 12; ++layer) {
+    //     X = transformerEncoderLayer(
+    //             X,
+    //             Wq, Wk, Wv, Wo,
+    //             bq, bk, bv, bo,
+    //             W1, W2, b1, b2
+    //         );
+    // }
 
     // 6. 取 CLS Token 作為輸出
     Matrix clsToken = createMatrix(1, dModel, 0.0);
     for(int j = 0; j < dModel; j++){
-        clsToken[0][j] = X[0][j];
+        clsToken[0][j] = encoderOut[0][j];
     }
 
     // m5_work_end(1, 0);        // ViT ROI 結束
