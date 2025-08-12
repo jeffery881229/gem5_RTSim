@@ -7,12 +7,6 @@
 #include <cstdint>  // for uint8_t, int8_t
 #include <bitset>
 
-// ---------------------- 追加或調整的巨集定義 ----------------------
-// #define INPUT_ADDR 0x100000000ULL  // Starting virtual address of the image
-// #define IMG_HEIGHT 64
-// #define IMG_WIDTH 64
-// #define NUM_CHANNELS 3
-
 // Add quantization parameters
 #define SCALE_FACTOR 127.0f
 #define ZERO_POINT    0
